@@ -9,7 +9,7 @@ import { WinnerModal } from './components/WinnerModal'
 
 
 
-function App() {
+function App () {
   const [board, setBoard] = useState(() => {
     const boardFromStorage = window.localStorage.getItem('board')
     return boardFromStorage ? JSON.parse(boardFromStorage) : Array(9).fill(null)
