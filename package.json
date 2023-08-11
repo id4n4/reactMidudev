@@ -4,6 +4,7 @@
   "description": "Repository for learn React",
   "main": "index.js",
   "dependencies": {
+    "@vitejs/plugin-react": "4.0.4",
     "acorn": "^8.10.0",
     "acorn-jsx": "^5.3.2",
     "ajv": "^6.12.6",
@@ -155,6 +156,8 @@
     "prop-types": "^15.8.1",
     "punycode": "^2.3.0",
     "queue-microtask": "^1.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-is": "^16.13.1",
     "regexp.prototype.flags": "^1.5.0",
     "regexpp": "^3.2.0",
