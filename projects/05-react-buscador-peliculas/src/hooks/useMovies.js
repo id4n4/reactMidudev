@@ -2,6 +2,7 @@ import responseMovies from '../Mocks/resultApi.json'
 
 export const useMovies = () => {
   const movies = responseMovies.Search
+
   const mappedMovies = movies.map(movie => {
     return {
       id: movie.imdbID,
@@ -10,6 +11,7 @@ export const useMovies = () => {
       poster: movie.Poster,
     }
   })
+  
   return {
     movies: mappedMovies,
   }
